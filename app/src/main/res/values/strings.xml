@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nottingham</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Booking">
+
+    <TextView
+        android:id="@+id/edt_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/amethysta"
+        android:text="BOOK YOUR TICKET"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_book"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Single Trip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/single"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="6"
+
+
+        android:hint="No. of Ticket"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/singlebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_ticket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_background"
+        android:text="Book"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day Pass"
+        android:textStyle="bold"
+        android:layout_below="@+id/singlebtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/edt_dayticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/day"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="6"
+        android:hint="No. of Ticket"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/day_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_dayticket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_background"
+        android:text="Book"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/season"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/day_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Season Pass"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_seasonticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/season"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="6"
+        android:hint="No. of Ticket"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/season_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_seasonticket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_background"
+        android:text="Book"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

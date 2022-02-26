@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146557527969",
+    "project_id": "tram-ea9ea",
+    "storage_bucket": "tram-ea9ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146557527969:android:48d05ab10f81aadd5a4de0",
+        "android_client_info": {
+          "package_name": "com.example.nottingham"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146557527969-liq020c4mhpvp3g8ejtbp67lvb6qn8sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxV_b-TtX1kHXFRSNZoStC-2RiPXGE2M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146557527969-liq020c4mhpvp3g8ejtbp67lvb6qn8sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
